@@ -1,9 +1,9 @@
 import React from "react";
-import flightImage from "../../Assests/BookingFlight.png";
-import Navbars from "../../Constants/Navbars";
+import flightImage from "../../../Assests/BookingFlight.png";
+import Navbars from "../../../Constants/Navbars";
 import { Link } from "react-router-dom";
-import "../../index.css";
-import flight from "../../Assests/Flights.png";
+import "../../../index.css";
+import flight from "../../../Assests/Flights.png";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 import Person2OutlinedIcon from "@mui/icons-material/Person2Outlined";
 

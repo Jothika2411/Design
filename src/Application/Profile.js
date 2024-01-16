@@ -72,19 +72,30 @@ const Profile = () => {
                     className="card"
                     style={{ maxWidth: "600px", borderRadius: "15px" }}
                   >
-                    <div className="card-body">icon</div>
+                    <div className="card-body d-flex flex-row">
+                      <div>1</div>
+                      <div>
+                        <p style={{ marginBottom: "0", fontSize: "13px" }}>
+                          Level 1
+                        </p>
+                        <span style={{ fontSize: "10px" }}>
+                          500 points to next level
+                        </span>
+                      </div>
+                    </div>
+                    <div>Icon</div>
                   </div>
                 </div>
 
                 <h5
-                  className="mt-4 font-weight-bold"
-                  style={{ marginRight: "280px" }}
+                  className="mt-3 font-weight-bold"
+                  style={{ marginRight: "300px" }}
                 >
                   Points
                 </h5>
                 <div className="container points-container">
                   <div className="row g-0">
-                    <div className="col">
+                    <div className="col mb-4">
                       <div className="card text-center points-card shadow">
                         <h6>
                           <img
@@ -102,7 +113,7 @@ const Profile = () => {
                       </div>
                     </div>
 
-                    <div className="col mb-3">
+                    <div className="col mb-4">
                       <div
                         className="card text-center points-card shadow"
                         style={{}}
@@ -123,7 +134,7 @@ const Profile = () => {
                       </div>
                     </div>
 
-                    <div className="col mb-3">
+                    <div className="col mb-4">
                       <div
                         className="card text-center points-card shadow"
                         style={{}}

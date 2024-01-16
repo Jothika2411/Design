@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Navbars from "../../Constants/Navbars";
-import flightImage from "../../Assests/BookingFlight.png";
-import flightImg from "../../Assests/Flights.png";
-import airasiaImg from "../../Assests/AirAsia.png";
-import vistaraImg from "../../Assests/vistaralogo.png";
-import fetchImg from "../../Assests/fetchimage.png";
+import Navbars from "../../../Constants/Navbars";
+import flightImage from "../../../Assests/BookingFlight.png";
+import flightImg from "../../../Assests/Flights.png";
+import airasiaImg from "../../../Assests/AirAsia.png";
+import vistaraImg from "../../../Assests/vistaralogo.png";
+import fetchImg from "../../../Assests/fetchimage.png";
 
 const Search = () => {
   const [flights, setFlights] = useState(false);

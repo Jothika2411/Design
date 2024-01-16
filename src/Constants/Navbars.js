@@ -4,6 +4,7 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Navbar, Nav } from "react-bootstrap";
 import username from "../Assests/UserName.png";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 const Navbars = () => {
   return (
@@ -48,7 +49,12 @@ const Navbars = () => {
               Survey
             </Nav.Link>
             <Nav.Link href="#" style={{ color: "white", marginLeft: "300px" }}>
-              Your's Cart
+              <Link
+                to="/cart"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Your's Cart
+              </Link>
               <span style={{ marginLeft: "5px" }}>
                 <ShoppingCartOutlinedIcon />
               </span>

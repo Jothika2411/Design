@@ -47,7 +47,14 @@ const Booking = () => {
                 style={{ marginTop: "20px" }}
               >
                 <div className="card-body ">
-                  <h5>Digi Stores</h5>
+                  <h5>
+                    <Link
+                      to="/booking/digistore"
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      Digi Store
+                    </Link>
+                  </h5>
                   <img
                     src={digiStoreImage}
                     alt=""
@@ -65,7 +72,14 @@ const Booking = () => {
             <div className="row">
               <div className="card booking-card shadow-sm">
                 <div className="card-body ">
-                  <h5>Hotels</h5>
+                  <h5>
+                    <Link
+                      to="/booking/hotels"
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      Hotels
+                    </Link>
+                  </h5>
                   <img
                     src={hotelsImage}
                     alt=""
@@ -102,7 +116,14 @@ const Booking = () => {
             <div className="row">
               <div className="card booking-card shadow-sm">
                 <div className="card-body ">
-                  <h5>Shop</h5>
+                  <h5>
+                    <Link
+                      to="/booking/shop"
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      Shop
+                    </Link>
+                  </h5>
                   <img
                     src={shopImage}
                     alt=""
