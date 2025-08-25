@@ -47,6 +47,37 @@ const Login = () => {
               </form>
             </div>
           </div>
+          <div className="col-4 card login-form-card">
+            <div className="card-body login-form-body">
+              <h5 className="card-title font-weight-bold">Welcome</h5>
+              <form>
+                <div className="mb-3 login-form-input">
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="inputField"
+                    placeholder="User Id"
+                  />
+                  <div className="mb-3 login-form-input">
+                    <input
+                      type="password"
+                      className="form-control"
+                      id="inputField"
+                      placeholder="Password"
+                    />
+                  </div>
+                </div>
+                <button type="submit" className="btn login-form-button button">
+                  Login
+                </button>
+                <p className="login-form-para">
+                  <Link to="/register" className="ms-2">
+                    First time user? Register | Forgot Password?
+                  </Link>
+                </p>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>

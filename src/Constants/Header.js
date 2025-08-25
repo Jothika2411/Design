@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header">
       <div className="headerLogo">
         <img src={GroupLogo} alt="" />
-        <div>check hh</div>
+        <div>Header changes</div>
       </div>
       <div className="header-navbar"></div>
     </div>
